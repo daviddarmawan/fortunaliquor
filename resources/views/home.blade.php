@@ -54,7 +54,7 @@ Highcharts.chart('chartJumlah', {
         data: [
             @foreach($order as $key => $order)    
             {
-            name: '{{ $order->langganan_id }} ({{ $order->jumlah_harga }})',
+            name: '{{ str_replace('_', ' ', $order->langganan_id) }} (Rp. {{ number_format($order->jumlah_harga)}})',
             y: {{ $order->jumlah_harga }},
             sliced: true,
             selected: true
