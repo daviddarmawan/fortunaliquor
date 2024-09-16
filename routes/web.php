@@ -50,6 +50,7 @@ Route::group(['middleware' => ['auth', 'ceklevel:Admin']], function () {
     Route::resource('terkirim', \App\Http\Controllers\TerkirimController::class)
         ->middleware('auth');
     Route::get('terkirim/{id}', [App\Http\Controllers\TerkirimController::class, 'show']);
+    Route::get('konfirmasi_belumterkirim/{id}', [App\Http\Controllers\KirimanController::class, 'konfirmasibelumterkirim']);
     Route::get('bayar/{langganan_id}', [App\Http\Controllers\TerkirimController::class, 'bayar']);
     Route::resource('batalan', \App\Http\Controllers\BatalanController::class)
         ->middleware('auth');
@@ -73,17 +74,4 @@ Route::group(['middleware' => ['auth', 'ceklevel:Admin']], function () {
         ->middleware('auth');
     Route::get('konfirmasi_pencairan/{id}', [App\Http\Controllers\RekapMarginController::class, 'konfirmasipencairan']);
     Route::get('konfirmasi_sudahcair/{id}', [App\Http\Controllers\ProsespencairanController::class, 'konfirmasisudahcair']);
-});
-
-Route::group(['middleware' => ['auth', 'ceklevel:Admin,Operator']], function() {
-    Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
-    Route::post('/profile', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
-    Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
-    Route::get('/kiriman', [App\Http\Controllers\KirimanController::class, 'index']);
-    Route::get('/kebutuhan', [App\Http\Controllers\KebutuhanController::class, 'index']);
-    Route::get('/terkirim', [App\Http\Controllers\TerkirimController::class, 'index']);
-    Route::get('/batalan', [App\Http\Controllers\BatalanController::class, 'index']);
-    Route::get('/rekapmargin', [App\Http\Controllers\RekapmarginController::class, 'index']);
-    Route::get('/prosespencairan', [App\Http\Controllers\ProsespencairanController::class, 'index']);
-    Route::get('/laporanpiutangpelanggan', [App\Http\Controllers\PembayaranController::class, 'index']);
 });

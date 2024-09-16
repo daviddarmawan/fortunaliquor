@@ -145,4 +145,14 @@ class KirimanController extends Controller
 
         return redirect()->route('kiriman.index');
     }
+
+    public function konfirmasibelumterkirim($pesanan_id)
+    {
+        $order = Order::where('id', $pesanan_id)->where('status', 2)->first();
+        $order->status = 1  ;
+        $order->status_margin = 3  ;
+        $order->update();
+
+        return redirect()->route('kiriman.index');
+    }
 }

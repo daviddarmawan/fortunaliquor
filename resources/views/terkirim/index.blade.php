@@ -16,12 +16,14 @@
                             <th>Nama Sales</th>
                             <th>Status</th>
                             <th>Jumlah Tagihan</th>
+                            <th>Sisa Tagihan</th>
                             <th>Rekap Margin</th>
                             <th>Rekap Margin Sales</th>
                             <th>Tanggal Pengiriman</th>
                             <th>Tanggal Jatuh Tempo</th>
                             <th>Status Margin</th>
                             <th>Invoice</th>
+                            <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -32,6 +34,7 @@
                                 <td>{{$order->langganan->nama_sales}}</a></td>
                                 <td><i class="fa fa-paper-plane"></i> Terkirim</td>
                                 <td>Rp. {{ number_format($order->jumlah_harga)}}</td>
+                                <td>Rp. {{ number_format($order->sisa_tagihan)}}</td>
                                 <td><a href="margin/{{ $order->id }}">Rp. {{ number_format($order->total_margin)}}</a></td></a></td>
                                 <td><a href="margin_sales/{{ $order->id }}">Rp. {{ number_format($order->total_margin_sales)}}</a></td></a></td>
                                 <td>{{ $order->tanggal_pengiriman }}</td>
@@ -52,6 +55,8 @@
                                     <a href="invoice/{{ $order->id }}" class="btn btn-secondary"><i class="fa fa-file" aria-hidden="true"></i> Invoice Rek David</a>
                                     <a href="invoice2/{{ $order->id }}" class="btn btn-secondary"><i class="fa fa-file" aria-hidden="true"></i> Invoice Rek Frisky</a>
                                 </td>
+                                <td><a href="konfirmasi_belumterkirim/{{ $order->id }}" class="btn btn-warning" onclick="return confirm('Anda yakin ubah status menjadi belum terkirim ?');">
+                                <i class="fa fa-paper-plane"></i> Batal Terkirim</a></td>
                             </tr>
                         @endforeach
                         </tbody>
