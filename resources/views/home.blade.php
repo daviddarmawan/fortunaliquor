@@ -28,7 +28,7 @@ Highcharts.chart('chartJumlah', {
         type: 'pie'
     },
     title: {
-        text: 'Jumlah Omset Produk'
+        text: 'Persentase Omset Hari Ini'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -49,13 +49,13 @@ Highcharts.chart('chartJumlah', {
         }
     },
     series: [{
-        name: 'Brands',
+        name: 'Persentase Omset',
         colorByPoint: true,
         data: [
-            @foreach($order_details as $key => $order_details)    
+            @foreach($order as $key => $order)    
             {
-            name: '{{ $order_details->barang_id }} ({{ $order_details->pesanan_id }})',
-            y: {{ $order_details->jumlah }},
+            name: '{{ $order->langganan_id }} ({{ $order->jumlah_harga }})',
+            y: {{ $order->jumlah_harga }},
             sliced: true,
             selected: true
         },
