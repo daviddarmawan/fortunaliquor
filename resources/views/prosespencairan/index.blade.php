@@ -57,3 +57,23 @@
         </div>
     </div>
 @stop
+@push('js')
+    <form action="" id="delete-form" method="post">
+        @method('delete')
+        @csrf
+    </form>
+    <script>
+        $('#example2').DataTable({
+            "responsive": true,
+        });
+
+        function notificationBeforeDelete(event, el) {
+            event.preventDefault();
+            if (confirm('Apakah anda yakin akan menghapus data ? ')) {
+                $("#delete-form").attr('action', $(el).attr('href'));
+                $("#delete-form").submit();
+            }
+        }
+
+    </script>
+@endpush
