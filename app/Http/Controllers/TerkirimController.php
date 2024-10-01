@@ -8,6 +8,7 @@ use App\Models\Langganan;
 use App\Models\Keranjang;
 use App\Models\Produk;
 use App\Models\Order;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class TerkirimController extends Controller
 {
