@@ -92,72 +92,173 @@
                     </div>
                 </div>
             </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <div class="about__container container grid">
-                    <div class="about__data">
-                        <h2 class="section__title about__title">DISCOVER FMA</h2>  
-                        <p class="about__description">Consumers today are increasingly more connected and educated. As a result, they demand quality and niche products that reflect their values, lifestyles, and widening interests.
-<br/><br/>
-                            At Fortuna Makmur Alkindo (FMA), we are here to serve.                            
-                        </p>
-                        <a href="#" class="button">Reserve a place</a>
-                    </div>
-
-                    <div class="about__img">
-                        <div class="about__img-overlay">
-                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
-                        </div>
-
-                        <div class="about__img-overlay">
-                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
-                        </div>
-                    </div>
-                </div>
-            </section>
             
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="discover">
-                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                <h2 class="section__title">My Product <br> Ready</h2>
                 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
-                        <!--==================== DISCOVER 1 ====================-->
+                        <!--==================== Dome Whisky  ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <img src="assets/img/product/dome.png" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Bali</h2>
-                                <span class="discover__description">24 tours available</span>
+                                <span class="discover__description">Dome Whisky</span>
                             </div>
                         </div>
 
-                        <!--==================== DISCOVER 2 ====================-->
+                        <!--==================== Gilbeys Ginv ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <img src="assets/img/product/gilbeygin.png" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Hawaii</h2>
-                                <span class="discover__description">15 tours available</span>
+                                <span class="discover__description">Gilbeys Gin</span>
                             </div>
                         </div>
 
-                        <!--==================== DISCOVER 3 ====================-->
+                        <!--==================== Gilbeys Vodka ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <img src="assets/img/product/gilbeyvodka.png" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Hvar</h2>
-                                <span class="discover__description">18 tours available</span>
+                                <span class="discover__description">Gilbeys Vodka</span>
                             </div>
                         </div>
 
-                        <!--==================== DISCOVER 4 ====================-->
+                        <!--==================== Gilbeys Whisky ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <img src="assets/img/product/gilbeywhisky.png" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Whitehaven</h2>
-                                <span class="discover__description">32 tours available</span>
+                                <span class="discover__description">Gilbeys Whisky</span>
                             </div>
                         </div>
+
+                         <!--==================== McDonal RUM ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mcrum.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">McDonal Rum</span>
+                            </div>
+                        </div>
+
+                         <!--==================== McDonal Vodka Mix====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mcvodkamix.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">McDonal Vodka Mix</span>
+                            </div>
+                        </div>
+
+                         <!--==================== McDonal Vodka ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mcvodka.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">McDonal Vodka</span>
+                            </div>
+                        </div>
+
+                         <!--==================== McDonal Whisky ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mcwhisky.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">McDonal Whisky</span>
+                            </div>
+                        </div>
+
+                         <!--==================== McDonal Anggur Hijau ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mdonal.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">McDonal Anggur Hijau</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Congyang ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/congyang.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Congyang</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Alexis ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/alexis.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Alexis</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Elang ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/elangangur.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Elang Laut Anggur</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Kawa Hijau ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/kawahijau.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Kawa Kawa Hijau</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Kawa Merah ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/kawamerah.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Kawa Kawa Merah</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Kuda Anggur ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/kdanggur.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Kuda Mas Anggur</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Mansion House VWhisky ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mhvodka.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Mansion House Whisky</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Mansion House Vodka ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mhvodkakcl.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Mansion House Vodka</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Mansion Whisky ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/mhwhisky.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Mansion Whisky</span>
+                            </div>
+                        </div>
+
+                         <!--==================== QRO ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/qro.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">QRO</span>
+                            </div>
+                        </div>
+
+                         <!--==================== Red Horse ====================-->
+                         <div class="discover__card swiper-slide">
+                            <img src="assets/img/product/redhorse.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <span class="discover__description">Red Horse</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
