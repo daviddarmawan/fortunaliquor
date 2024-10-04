@@ -10,7 +10,7 @@ use App\Models\Produk;
 use App\Models\Order;
 use Barryvdh\DomPDF\Facade\Pdf;
 
-class RekapmarginController extends Controller
+class RekapMarginController extends Controller
 {
     /**
      * Display a listing of the resource.
