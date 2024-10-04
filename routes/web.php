@@ -71,7 +71,7 @@ Route::resource('checkoutpesanan', \App\Http\Controllers\CheckoutpesananControll
 Route::get('checkoutpesanan/{id}', [App\Http\Controllers\CheckoutpesananController::class, 'show']);
 Route::resource('kebutuhanbelumcheckout', \App\Http\Controllers\KebutuhanbelumcheckoutController::class)
     ->middleware('auth');
-Route::get('konfirmasi_pencairan/{id}', [App\Http\Controllers\RekapmarginController::class, 'konfirmasipencairan'])->middleware('auth');;
+Route::get('konfirmasi_pencairan/{id}', [App\Http\Controllers\RekapmarginController::class, 'konfirmasipencairan'])->middleware('auth');
 Route::get('konfirmasi_sudahcair/{id}', [App\Http\Controllers\ProsespencairanController::class, 'konfirmasisudahcair']);
 Route::resource('kebutuhan', \App\Http\Controllers\KebutuhanController::class)
     ->middleware('auth');
