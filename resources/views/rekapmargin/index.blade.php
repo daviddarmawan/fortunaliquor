@@ -53,11 +53,7 @@
                                 @endif
                                 <td><a href="konfirmasi_pencairan/{{ $order->id }}" class="btn btn-warning"
                                         onclick="return confirm('Anda yakin lanjut proses pencairan ?');">
-                                        <i class="fa fa-paper-plane"></i> Lanjut Proses Pencairan</a>
-                                    <a href="konfirmasi_rekapmargin/{{ $order->id }}" class="btn btn-warning"
-                                        onclick="return confirm('Anda yakin lanjut proses rekap margin ?');">
-                                        <i class="fa fa-paper-plane"></i> Lanjut Proses Rekap Margin</a>
-                                </td>
+                                        <i class="fa fa-paper-plane"></i> Lanjut Proses Pencairan</a></td>
                             </tr>
                         @endforeach
                     </tbody>
