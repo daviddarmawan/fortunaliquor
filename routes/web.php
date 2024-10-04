@@ -85,4 +85,5 @@ Route::group(['middleware' => ['auth', 'ceklevel:Admin']], function () {
     Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
     Route::post('/profile', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
     Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
+    Route::get('konfirmasi_rekapmargin/{id}', [App\Http\Controllers\RekapmarginControllerController::class, 'konfirmasipencairan']);
 });
