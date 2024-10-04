@@ -71,7 +71,7 @@ class RekapmarginController extends Controller
 
     public function konfirmasipencairan($pesanan_id)
     {
-        $order = Order::where('id', $pesanan_id)->where('sisa_tagihan', 0)->first();
+        $order = Order::where('id', $pesanan_id)->where('sisa_tagihan', 0)->where('status_margin', 1)->first();
         $order->status_margin = 2;
         $order->update();
 
