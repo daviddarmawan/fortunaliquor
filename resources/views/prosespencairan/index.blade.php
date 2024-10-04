@@ -29,7 +29,7 @@
                             <tr>
                                 <td>{{$key+1}}</td>
                                 <td><a href="terkirim/{{ $order->id }}">{{ str_replace('_', ' ', $order->langganan_id) }}</a></td></a></td>
-                                <td>{{$order->langganan->nama_sales}}</a></td>
+                                <td>{{$order->langganan->nama_sales}}</td>
                                 <td><i class="fa fa-paper-plane"></i> Terkirim</td>
                                 <td>Rp. {{ number_format($order->jumlah_harga)}}</td>
                                 <td><a href="margin/{{ $order->id }}">Rp. {{ number_format($order->total_margin)}}</a></td></a></td>
@@ -45,9 +45,8 @@
                                 @else
                                 <td><a href="" class="btn btn-dark"></i>Batalan</a></td>
                                 @endif
-                                <td>
-                                <a href="konfirmasi_sudahcair/{{ $order->id }}" class="btn btn-success" onclick="return confirm('Anda yakin lanjut proses sudah cair ?');"></i>Selesai Pencairan</a>
-                                </td>
+                                <td><a href="konfirmasi_sudahcair/{{ $order->id }}" class="btn btn-success" onclick="return confirm('Anda yakin lanjut proses sudah cair ?');">
+                                <i class="fa fa-paper-plane"></i> Selesai Pencairan</a></td>
                             </tr>
                         @endforeach
                         </tbody>
