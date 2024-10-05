@@ -15,7 +15,7 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/dashboard-styles.css">
 
-        <title>Fortuna Makmur Alkindo</title>
+        <title>Fortuna Artha Niaga</title>
     </head>
     <body>
         <header class="header" id="header">
@@ -60,7 +60,7 @@
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle">At Fortuna Makmur Alkindo</span>
+                        <span class="home__data-subtitle">At Fortuna Artha Niaga</span>
                         <h1 class="home__data-title">Meeting The <br> Demands Of <b>Today's <br> Discerning Consumer</b></h1>
                         <a href="#" class="button">Explore</a>
 
@@ -95,7 +95,7 @@
             
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="discover">
-                <h2 class="section__title">My Product <br> Ready</h2>
+                <h2 class="section__title">Our Product</h2>
                 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
