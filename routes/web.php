@@ -13,15 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+Route::get('/', [App\Http\Controllers\DashboardController::class, 'index']);
 
 Auth::routes(['register' => false]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);
+Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index'])->middleware('auth');
 Route::resource('users', \App\Http\Controllers\UserController::class)
     ->middleware('auth');
 Route::resource('produk', \App\Http\Controllers\ProdukController::class)

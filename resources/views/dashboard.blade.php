@@ -36,6 +36,9 @@
                         <li class="nav__item">
                             <a href="#place" class="nav__link">Places</a>
                         </li>
+                        <li class="nav__item">
+                            <a href="login" class="nav__link">Admin</a>
+                        </li>
                     </ul>
 
                     <div class="nav__dark">
@@ -62,7 +65,7 @@
                     <div class="home__data">
                         <span class="home__data-subtitle">At Fortuna Artha Niaga</span>
                         <h1 class="home__data-title">Meeting The <br> Demands Of <b>Today's <br> Discerning Consumer</b></h1>
-                        <a href="#" class="button">Explore</a>
+                        <a href="https://wa.me/+6282258280517?text=Halo!%20Saya%20tertarik%20menjadi%20mitra%20Fortuna%20Artha%20Niaga" class="button">Contact Us</a>
 
                     </div>
 
@@ -80,9 +83,9 @@
 
                     <div class="home__info">
                         <div>
-                            <span class="home__info-title">Admin Fortuna</span>
-                            <a href="login" class="button button--flex button--link home__info-button">
-                                Login <i class="ri-arrow-right-line"></i>
+                            <span class="home__info-title">FANIAGA</span>
+                            <a href="#about" class="button button--flex button--link home__info-button">
+                                About Us <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
 
@@ -92,10 +95,34 @@
                     </div>
                 </div>
             </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">ABOUT FMA</h2>  
+                        <p class="about__description">Consumers today are increasingly more connected and educated. As a result, they demand quality and niche products that reflect their values, lifestyles, and widening interests.
+<br/><br/>
+                            At Fortuna Artha Niaga (Faniaga), we are here to serve.                            
+                        </p>
+                        <a href="#" class="button">Reserve a place</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
             
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="discover">
-                <h2 class="section__title">Our Product</h2>
+                <h2 class="section__title">Discover Our Products</h2>
                 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
@@ -270,18 +297,18 @@
                 <div class="experience__container container grid">
                     <div class="experience__content grid">
                         <div class="experience__data">
-                            <h2 class="experience__number">20</h2>
+                            <h2 class="experience__number">5</h2>
                             <span class="experience__description">Year <br> Experience</span>
                         </div>
 
                         <div class="experience__data">
-                            <h2 class="experience__number">75</h2>
-                            <span class="experience__description">Complete <br> tours</span>
+                            <h2 class="experience__number">75+</h2>
+                            <span class="experience__description">Our <br> Partners</span>
                         </div>
 
                         <div class="experience__data">
-                            <h2 class="experience__number">650+</h2>
-                            <span class="experience__description">Tourist <br> Destination</span>
+                            <h2 class="experience__number">{{ $lastUserId = $order->id }}</h2>
+                            <span class="experience__description">Costumer <br> Transaction</span>
                         </div>
                     </div>
 
@@ -303,7 +330,7 @@
 
                 <div class="video__container container">
                     <p class="video__description">Find out more with our video of the most beautiful and 
-                        pleasant places for you and your family.
+                        pleasant products for you.
                     </p>
 
                     <div class="video__content">
@@ -454,28 +481,6 @@
                     </div>
                 </div>
             </section>
-            
-            <!--==================== SPONSORS ====================-->
-            <section class="sponsor section">
-                <div class="sponsor__container container grid">
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
-                    </div>
-                </div>
-            </section>
-        </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
@@ -549,7 +554,7 @@
                 </div>
 
                 <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+                    <p class="footer__copy">&#169; 2023 AruTeknologi. All rigths reserved.</p>
                     <div class="footer__terms">
                         <a href="#" class="footer__terms-link">Terms & Agreements</a>
                         <a href="#" class="footer__terms-link">Privacy Policy</a>
