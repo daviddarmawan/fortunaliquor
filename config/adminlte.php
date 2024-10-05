@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>FMA </b>Group',
+    'logo' => '<b>FANIAGA',
     //'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img' => 'images/fortuna.png',
     //'logo_img_class' => 'brand-image img-circle elevation-3',
@@ -306,7 +306,7 @@ return [
             'url' => 'users',
             'icon' => 'fas fa-fw fa-user',
         ],
-        ['header' => 'FORTUNA LIQUOR'],
+        ['header' => 'FANIAGA'],
         [
             'text' => 'Purchase',
             'icon' => 'fa fa-shopping-cart',

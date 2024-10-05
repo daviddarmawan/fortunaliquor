@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Fortuna Makmur Alkindo')
+@section('title', 'Fortuna Artha Niaga')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Halaman Utama</h1>
@@ -11,7 +11,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <p class="mb-0">Selamat Datang di FMA Group!</p>
+                    <p class="mb-0">Selamat Datang di Fortuna Artha Niaga!</p>
 
 <div class="panel">
   <div id="chartJumlah"></div>
