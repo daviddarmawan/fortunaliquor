@@ -303,7 +303,7 @@
             <div class="experience__container container grid">
                 <div class="experience__content grid">
                     <div class="experience__data">
-                        <h2 class="experience__number">5</h2>
+                        <h2 class="experience__number">5+</h2>
                         <span class="experience__description">Year <br> Experience</span>
                     </div>
 
@@ -313,7 +313,7 @@
                     </div>
 
                     <div class="experience__data">
-                        <h2 class="experience__number">{{ $order->id }}</h2>
+                        <h2 class="experience__number">650+</h2>
                         <span class="experience__description">Costumer <br> Transaction</span>
                     </div>
                 </div>
