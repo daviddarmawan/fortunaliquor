@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Fortuna Makmur Alkindo',
+    'title' => 'Fortuna Artha Niaga',
     'title_prefix' => '',
     'title_postfix' => '',
 
