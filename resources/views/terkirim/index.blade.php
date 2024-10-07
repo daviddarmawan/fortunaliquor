@@ -13,6 +13,7 @@
                         <tr>
                             <th>No</th>
                             <th>Nama Pelanggan</th>
+                            <th>Nama Sales</th>
                             <th>Status</th>
                             <th>Jumlah Tagihan</th>
                             <th>Sisa Tagihan</th>
@@ -31,7 +32,8 @@
                                 <td>{{$key + 1}}</td>
                                 <td><a
                                         href="terkirim/{{ $order->id }}">{{ str_replace('_', ' ', $order->langganan_id) }}</a>
-                                </td></a></td>
+                                </td>
+                                <td>{{ $order->langganan->nama_sales }}</td>
                                 <td><i class="fa fa-paper-plane"></i> Terkirim</td>
                                 <td>Rp. {{ number_format($order->jumlah_harga)}}</td>
                                 <td>Rp. {{ number_format($order->sisa_tagihan)}}</td>
