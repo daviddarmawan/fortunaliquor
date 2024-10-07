@@ -313,7 +313,7 @@
                     </div>
 
                     <div class="experience__data">
-                        <h2 class="experience__number">{{ $order->id }}</h2>
+                        <h2 class="experience__number">650+</h2>
                         <span class="experience__description">Costumer <br> Transaction</span>
                     </div>
                 </div>
