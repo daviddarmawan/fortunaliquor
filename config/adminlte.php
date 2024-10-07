@@ -302,6 +302,16 @@ return [
             'icon' => 'fas fa-fw fa-home',
         ],
         [
+            'text' => 'Piutang Usaha',
+            'url' => '/piutangusaha',
+            'icon' => 'fa fa-balance-scale',
+        ],
+        [
+            'text' => 'Margin',
+            'url' => '/margin',
+            'icon' => 'fa fa-credit-card',
+        ],
+        [
             'text' => 'Users',
             'url' => 'users',
             'icon' => 'fas fa-fw fa-user',
