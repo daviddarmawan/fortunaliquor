@@ -126,7 +126,7 @@
 						<table>
 							<tr>
 								<td>
-									Fortuna Abadi Group<br />
+									FANIAGA<br />
 									Jakarta, Indonesia<br />
 								</td>
 

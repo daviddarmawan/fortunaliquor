@@ -16,7 +16,7 @@
       </div>
       <h1>INVOICE F2909{{ $order->id }}</h1>
       <div id="company" class="clearfix">
-        <div>Fortuna Abadi</div>
+        <div>FANIAGA</div>
         <div>Jakarta, Indonesia</div>
         <div>+62 856-4083-6111</div>
         <div><a href="mailto:daviddarmwan15@gmail.com">firdayantofrisky@gmail.com</a></div>
