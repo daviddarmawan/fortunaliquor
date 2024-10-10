@@ -302,6 +302,11 @@ return [
             'icon' => 'fas fa-fw fa-home',
         ],
         [
+            'text' => 'Langganan Belum Trx',
+            'url' => '/belumtrx',
+            'icon' => 'fa fa-shopping-cart',
+        ],
+        [
             'text' => 'Piutang Usaha',
             'url' => '/piutangusaha',
             'icon' => 'fa fa-balance-scale',

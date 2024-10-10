@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\DashboardController::class, 'index']);
+Route::get('/belumtrx', [App\Http\Controllers\TransaksiController::class, 'index']);
 Route::get('/piutangusaha', [App\Http\Controllers\PiutangusahaController::class, 'index']);
 Route::get('/margin', [App\Http\Controllers\MarginController::class, 'index']);
 
