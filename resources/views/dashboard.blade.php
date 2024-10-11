@@ -36,9 +36,6 @@
                         <a href="#discover" class="nav__link">Discover</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#place" class="nav__link">Places</a>
-                    </li>
-                    <li class="nav__item">
                         <a href="login" class="nav__link">Admin</a>
                     </li>
                 </ul>
@@ -74,14 +71,8 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                        <i class="ri-facebook-box-fill"></i>
-                    </a>
-                    <a href="https://www.instagram.com/fortunaabadigroup" target="_blank" class="home__social-link">
+                    <a href="https://www.instagram.com/faniagaindonesia" target="_blank" class="home__social-link">
                         <i class="ri-instagram-fill"></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                        <i class="ri-twitter-fill"></i>
                     </a>
                 </div>
 
@@ -111,7 +102,8 @@
                         <br /><br />
                         At Fortuna Artha Niaga (Faniaga), we are here to serve.
                     </p>
-                    <a href="#" class="button">Reserve a place</a>
+                    <a href="https://wa.me/+6282258280517?text=Halo!%20Saya%20tertarik%20menjadi%20mitra%20Fortuna%20Artha%20Niaga"
+                        class="button">Reserver a product</a>
                 </div>
 
                 <div class="about__img">
@@ -320,11 +312,11 @@
 
                 <div class="experience__img grid">
                     <div class="experience__overlay">
-                        <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        <img src="assets/img/experience1.png" alt="" class="experience__img-one">
                     </div>
 
                     <div class="experience__overlay">
-                        <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        <img src="assets/img/experience2.png" alt="" class="experience__img-two">
                     </div>
                 </div>
             </div>
@@ -351,164 +343,17 @@
             </div>
         </section>
 
-        <!--==================== PLACES ====================-->
-        <section class="place section" id="place">
-            <h2 class="section__title">Choose Your Place</h2>
-
-            <div class="place__container container grid">
-                <!--==================== PLACES CARD 1 ====================-->
-                <div class="place__card">
-                    <img src="assets/img/place1.jpg" alt="" class="place__img">
-
-                    <div class="place__content">
-                        <span class="place__rating">
-                            <i class="ri-star-line place__rating-icon"></i>
-                            <span class="place__rating-number">4,8</span>
-                        </span>
-
-                        <div class="place__data">
-                            <h3 class="place__title">Bali</h3>
-                            <span class="place__subtitle">Indonesia</span>
-                            <span class="place__price">$2499</span>
-                        </div>
-                    </div>
-
-                    <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button>
-                </div>
-
-                <!--==================== PLACES CARD 2 ====================-->
-                <div class="place__card">
-                    <img src="assets/img/place2.jpg" alt="" class="place__img">
-
-                    <div class="place__content">
-                        <span class="place__rating">
-                            <i class="ri-star-line place__rating-icon"></i>
-                            <span class="place__rating-number">5,0</span>
-                        </span>
-
-                        <div class="place__data">
-                            <h3 class="place__title">Bora Bora</h3>
-                            <span class="place__subtitle">Polinesia</span>
-                            <span class="place__price">$1599</span>
-                        </div>
-                    </div>
-
-                    <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button>
-                </div>
-
-                <!--==================== PLACES CARD 3 ====================-->
-                <div class="place__card">
-                    <img src="assets/img/place3.jpg" alt="" class="place__img">
-
-                    <div class="place__content">
-                        <span class="place__rating">
-                            <i class="ri-star-line place__rating-icon"></i>
-                            <span class="place__rating-number">4,9</span>
-                        </span>
-
-                        <div class="place__data">
-                            <h3 class="place__title">Hawaii</h3>
-                            <span class="place__subtitle">EE.UU</span>
-                            <span class="place__price">$3499</span>
-                        </div>
-                    </div>
-
-                    <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button>
-                </div>
-
-                <!--==================== PLACES CARD 4 ====================-->
-                <div class="place__card">
-                    <img src="assets/img/place4.jpg" alt="" class="place__img">
-
-                    <div class="place__content">
-                        <span class="place__rating">
-                            <i class="ri-star-line place__rating-icon"></i>
-                            <span class="place__rating-number">4,8</span>
-                        </span>
-
-                        <div class="place__data">
-                            <h3 class="place__title">Whitehaven</h3>
-                            <span class="place__subtitle">Australia</span>
-                            <span class="place__price">$2499</span>
-                        </div>
-                    </div>
-
-                    <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button>
-                </div>
-
-                <!--==================== PLACES CARD 5 ====================-->
-                <div class="place__card">
-                    <img src="assets/img/place5.jpg" alt="" class="place__img">
-
-                    <div class="place__content">
-                        <span class="place__rating">
-                            <i class="ri-star-line place__rating-icon"></i>
-                            <span class="place__rating-number">4,8</span>
-                        </span>
-
-                        <div class="place__data">
-                            <h3 class="place__title">Hvar</h3>
-                            <span class="place__subtitle">Croacia</span>
-                            <span class="place__price">$1999</span>
-                        </div>
-                    </div>
-
-                    <button class="button button--flex place__button">
-                        <i class="ri-arrow-right-line"></i>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!--==================== SUBSCRIBE ====================-->
-        <section class="subscribe section">
-            <div class="subscribe__bg">
-                <div class="subscribe__container container">
-                    <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
-                    <p class="subscribe__description">Subscribe to our newsletter and get a
-                        special 30% discount.
-                    </p>
-
-                    <form action="" class="subscribe__form">
-                        <input type="text" placeholder="Enter email" class="subscribe__input">
-
-                        <button class="button">
-                            Subscribe
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
             <div class="footer__container container grid">
                 <div class="footer__content grid">
                     <div class="footer__data">
                         <h3 class="footer__title">Fortuna</h3>
-                        <p class="footer__description">Travel you choose the <br> destination,
-                            we offer you the <br> experience.
+                        <p class="footer__description">Meeting The Demands Of Today's Discerning Consumer
                         </p>
                         <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
-                            </a>
-                            <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <a href="https://www.instagram.com/faniagaindonesia" target="_blank" class="footer__social">
                                 <i class="ri-instagram-fill"></i>
-                            </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
-                                <i class="ri-youtube-fill"></i>
                             </a>
                         </div>
                     </div>
@@ -517,13 +362,10 @@
                         <h3 class="footer__subtitle">About</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
+                                <a href="#about" class="footer__link">About Us</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
+                                <a href="#discover" class="footer__link">Discover</a>
                             </li>
                         </ul>
                     </div>
@@ -532,13 +374,7 @@
                         <h3 class="footer__subtitle">Company</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
+                                <a href="https://wa.me/+6282258280517?text=Halo!%20Saya%20tertarik%20menjadi%20mitra%20Fortuna%20Artha%20Niaga"" class="footer__link">Become a member</a>
                             </li>
                         </ul>
                     </div>
@@ -547,13 +383,7 @@
                         <h3 class="footer__subtitle">Support</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
+                                <a href="https://wa.me/+6282258280517?text=Halo!%20Saya%20tertarik%20menjadi%20mitra%20Fortuna%20Artha%20Niaga"" class="footer__link">Support Center</a>
                             </li>
                         </ul>
                     </div>
@@ -562,8 +392,6 @@
                 <div class="footer__rights">
                     <p class="footer__copy">&#169; 2023 AruTeknologi. All rigths reserved.</p>
                     <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
                     </div>
                 </div>
             </div>
