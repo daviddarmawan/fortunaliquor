@@ -95,7 +95,7 @@
         <section class="about section" id="about">
             <div class="about__container container grid">
                 <div class="about__data">
-                    <h2 class="section__title about__title">ABOUT FMA</h2>
+                    <h2 class="section__title about__title">ABOUT FANIAGA</h2>
                     <p class="about__description">Consumers today are increasingly more connected and educated. As a
                         result, they demand quality and niche products that reflect their values, lifestyles, and
                         widening interests.
